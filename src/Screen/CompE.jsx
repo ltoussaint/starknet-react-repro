@@ -15,13 +15,9 @@ export default function CompE() {
 
         const eventTransaction = blockData.transaction_receipts;
 
-        console.log({eventTransaction})
-
         if (!eventTransaction) {
             return;
         }
-
-        console.log('eventTransaction')
 
     }, [blockData?.transaction_receipts]);
     

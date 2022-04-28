@@ -5,7 +5,7 @@ import Screen from './Screen';
 function App() {
 
   const connectors = [new InjectedConnector()];
-  const defaultProvider = new Provider({ baseUrl: "https://hackathon-0.starknet.io" });
+  const defaultProvider = new Provider({ baseUrl: "https://alpha4.starknet.io" });
 
   return (
     <StarknetProvider connectors={connectors} defaultProvider={defaultProvider} autoConnect>
